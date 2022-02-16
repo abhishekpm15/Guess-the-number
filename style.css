@@ -1,0 +1,78 @@
+body{
+    background-color:lightskyblue;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+.container{
+    text-align: center;
+    display: inline-block;
+    margin-top: 3%;
+}
+.heading{
+    margin-bottom: 50px;
+    transition: transform 250ms;
+    color: rgb(1, 99, 190);
+}
+.heading:hover{
+    transform: translateY(-18px);
+}
+.card{
+    width:18rem;
+    height: 23rem;
+    border-radius: 30px;
+    margin-left: 38%;
+    border: 5px solid rgb(66, 141, 240);
+    box-shadow: 20px 20px 10px rgb(82, 124, 236) ;
+}
+#score{
+    margin-bottom: 5%;
+    transition: transform 250ms;
+}
+
+#score:hover{
+    transform: translateY(-18px);
+}
+#rand{
+    margin-top: 50%;
+}
+.btn{
+    width:5rem;
+    height: 5rem;
+    float: left;
+    font-size: 30px;
+    margin-right: 40px;
+    border-radius: 20px;
+    transition: transform 250ms;
+}
+
+.btn:hover{
+    transform: translateX(-18px);
+}
+.setofcards{
+    text-align: center;
+    margin:0 30% 0 41%;
+}
+.numbers{
+    position: relative;
+    top:10px;
+    text-align: center;
+}
+
+
+.toomany{
+    margin-top: 20%;
+    font-size: 25px;
+    color: rgb(3, 126, 241);
+}
+.passed{
+    background-color: rgb(61, 175, 86);
+}
+
+.headpassed{
+    color: black;
+}
+.failed{
+    background-color: rgb(224, 81, 81);
+}
+
